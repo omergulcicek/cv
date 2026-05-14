@@ -1,0 +1,223 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[turkish]{babel}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{tabularx}
+\usepackage[sfdefault]{FiraSans}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \small #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \small #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Ömer Gülçiçek} \\ \vspace{1pt}
+    \small 0554 350 98 06 $|$ \href{mailto:iletisim@omergulcicek.com}{\underline{iletisim@omergulcicek.com}} $|$ \href{https://omergulcicek.com/}{\underline{omergulcicek.com}} \\
+    \small \href{https://linkedin.com/in/omergulcicek}{\underline{linkedin.com/in/omergulcicek}} $|$ \href{https://github.com/omergulcicek}{\underline{github.com/omergulcicek}} \\
+    \small İstanbul, Gaziosmanpaşa $|$ Askerlik: Yapıldı
+\end{center}
+
+\section{Özet Bilgi}
+\small{
+React ve Next.js ekosisteminde 8 yılı aşkın tecrübeyle; hem kullanıcılar hem de geliştiriciler için sürdürülebilir ürünler inşa ediyorum. AI-native kural setleri geliştirerek, ekiplerin DX standartlarını ve mühendislik verimliliğini artırmaya odaklanıyorum. Büyük ölçekli frontend projelerinde performansı artırmaya, takıma yol göstermeye ve işi verimli kılan yazılım araçları geliştirmeye odaklıyım.
+}
+
+\section{Teknik Uzmanlık}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Frontend Development}{: React, Next.js, TypeScript, JavaScript (ES6+), TanStack (Start, Query, Router)} \\
+     \textbf{State \& Form Management}{: Zustand, Zod, React Hook Form} \\
+     \textbf{Styling \& UI}{: Tailwind CSS, shadcn/ui, Framer Motion, Storybook, CSS3/SASS, HTML5} \\
+     \textbf{Araçlar \& Veri}{: Git, Cursor (AI-Native Development), Figma, GraphQL} \\
+     \textbf{Diller}{: Türkçe (Anadil), İngilizce (Teknik okuma ve yazma)}
+    }}
+ \end{itemize}
+
+\section{İş Tecrübeleri}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Frontend Team Lead}{Ağu 2025 -- Kas 2025}
+      {Machinarium}{Remote}
+      \resumeItemListStart
+        \resumeItem{Yapay zekâ kuralları ve kod yazım standartları oluşturarak geliştirici verimliliğini ve kod tutarlılığını artırdım.}
+        \resumeItem{10 kişilik frontend ekibine teknik rehberlik ederek kompleks ürünlerin yüksek mühendislik standartlarında yayına alınmasını sağladım.}
+        \resumeItem{Ortak bileşen kullanımı ve modüler yapıları kurgulayarak e-ticaret ekosistemindeki (PIM, CMS, OMS) teknik tutarsızlıkları giderdim.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Senior Frontend Developer}{Mar 2024 -- Haz 2025}
+      {Alışgidiş}{Remote}
+      \resumeItemListStart
+        \resumeItem{alisgidis.com'un ölçeklenebilir mimari temellerini inşa ettim; düzenli teknik oturumlar ve mentorlukla ekibin mühendislik standartlarını yükselttim.}
+        \resumeItem{Core Web Vitals iyileştirmeleri ve kod optimizasyonlarıyla Lighthouse skorlarını 90+ seviyesine taşıyarak site hızını ve SEO verimliliğini artırdım.}
+        \resumeItem{Atomic Design prensipleriyle modüler ve dark/light tema destekli bir UI kütüphanesi kurgulayarak frontend geliştirme hızını \%25 artırdım.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Senior Frontend Developer}{Oca 2022 -- Şub 2024}
+      {Gordion}{Remote}
+      \resumeItemListStart
+        \resumeItem{Modern mühendislik pratiklerini ve kod kalitesi standartlarını ekip kültürüne entegre ederek teknik borcu minimize ettim.}
+        \resumeItem{Kurumsal UI Kit ve tasarım sistemleri geliştirerek ekipler arası teknik tutarlılığı sağladım ve geliştirme hızını artırdım.}
+        \resumeItem{Kapsamlı rezervasyon platformları için ölçeklenebilir frontend mimarileri inşa ettim; GraphQL entegrasyonu ile veri yönetim süreçlerini optimize ettim.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Frontend Developer}{Eyl 2020 -- Oca 2022}
+      {HangiKredi}{Ofisten}
+      \resumeItemListStart
+        \resumeItem{hangikredi.com platformunu uçtan uca geliştirerek performans iyileştirmelerini yönettim; yüksek performanslı arayüzler ve yeniden kullanılabilir kütüphanelerle ekip standartlarını güçlendirdim.}
+        \resumeItem{Figma üzerindeki kompleks tasarımları yüksek hassasiyetle koda dönüştürerek ürün geliştirme sürecini hızlandırdım.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Frontend Eğitmeni}{Ara 2020 -- Şub 2021}
+      {Kodluyoruz}{Remote}
+      \resumeItemListStart
+        \resumeItem{30 öğrenciye HTML, CSS, SASS, JavaScript, Git ve React konularını kapsayan kapsamlı Frontend eğitimi verdim.}
+        \resumeItem{PSD to CSS pratikleri ve teknik mentorluk süreçleriyle öğrencilerin modern arayüz geliştirme becerilerini artırdım.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Frontend Developer}{Haz 2019 -- Kas 2019}
+      {Akinon}{Ofisten}
+      \resumeItemListStart
+        \resumeItem{Vakko ve A101 gibi ölçekli e-ticaret markaları için modüler bileşen mimarileri kurguladım; Zeplin tasarımlarını yüksek sadakatle hayata geçirdim.}
+        \resumeItem{Hazırladığım teknik dokümantasyonlar ile geliştirme süreçlerinin sürdürülebilirliğini ve ekip içi bilgi aktarımını sağladım.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Frontend Developer}{Tem 2018 -- Kas 2018}
+      {Turkcell}{Ofisten}
+      \resumeItemListStart
+        \resumeItem{Kritik frontend problemlerine gerçek zamanlı çözümler üreterek geliştirme döngüsündeki blokajları giderdim.}
+        \resumeItem{Canlı sistemdeki hataları anlık olarak optimize ederek ekipler arası geri bildirim hızını ve sistem kararlılığını artırdım.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Frontend Developer}{Tem 2017 -- Haz 2018}
+      {Ziraat Teknoloji}{Ofisten}
+      \resumeItemListStart
+        \resumeItem{İnşaat projelerinin bütçe ve tarih takibinin yapıldığı kapsamlı yönetim panelini teknik standartlara uygun şekilde hayata geçirdim.}
+        \resumeItem{Kendo UI tabanlı kurumsal admin paneli projelerini uçtan uca geliştirip yönettim; arayüzleri responsive hale getirerek kullanıcı deneyimini modernize ettim.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+\section{Eğitim Bilgileri}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Yazılım Mühendisliği, İngilizce}{2012 -- 2017}
+      {İstanbul Aydın Üniversitesi}{İstanbul}
+  \resumeSubHeadingListEnd
+
+\section{Projeler ve Açık Kaynak}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{ViraStack AI} $|$ \href{https://github.com/virastack/ai-rules}{\underline{github.com/virastack/ai-rules}}}{2026}
+          \resumeItemListStart
+            \resumeItem{Modern React uygulamaları için yapay zeka odaklı mimari kiti ve yüksek disiplinli protokoller.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Input Mask} $|$ \href{https://github.com/virastack/input-mask}{\underline{github.com/virastack/input-mask}}}{2025}
+          \resumeItemListStart
+            \resumeItem{React Hook Form için optimize edilmiş, hafif ve bağımlılıksız input maskeleme kütüphanesi.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Password Toggle} $|$ \href{https://github.com/virastack/password-toggle}{\underline{github.com/virastack/password-toggle}}}{2025}
+          \resumeItemListStart
+            \resumeItem{React için tam erişilebilir ve son derece özelleştirilebilir şifre görünürlük hook'u.}
+          \resumeItemListEnd
+          
+      \resumeProjectHeading
+          {\textbf{Next.js Boilerplate} $|$ \href{https://github.com/virastack/nextjs-boilerplate}{\underline{github.com/virastack/nextjs-boilerplate}}}{2024}
+          \resumeItemListStart
+            \resumeItem{Tailwind CSS 4 ve TypeScript ile oluşturulmuş, üretime hazır Next.js 16+ başlangıç şablonu.}
+          \resumeItemListEnd
+          
+      \resumeProjectHeading
+          {\textbf{Rûznâme} $|$ \href{https://github.com/omergulcicek/ruzname}{\underline{github.com/omergulcicek/ruzname}}}{2025}
+          \resumeItemListStart
+            \resumeItem{Takvim abonelikleri için ücretsiz, açık kaynak takvim arayüzleri ve içerik platformu.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Türkçe Doküman} $|$ \href{https://github.com/omergulcicek/turkcedokuman.com}{\underline{github.com/omergulcicek/turkcedokuman.com}}}{2023}
+          \resumeItemListStart
+            \resumeItem{Yazılım geliştirme konularında Türkçe kaynak ve içerik projesi.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+        {\textbf{Turkuaz} $|$ \href{https://github.com/omergulcicek/turkuaz}{\underline{github.com/omergulcicek/turkuaz}}}{2021}
+        \resumeItemListStart
+          \resumeItem{Hızlı ve minimalist web sayfaları için özelleşmiş CSS kütüphanesi.}
+        \resumeItemListEnd
+    \resumeSubHeadingListEnd
+    
+    \section{Kişisel İlgi Alanları}
+         \small{
+          Teknik dünyamın dışında; kişisel blogumda teknik konuların yanı sıra deneyimlerimi paylaştığım \textbf{yazılar} yazıyorum. Düzenli \textbf{satranç} oynuyor, doğa yürüyüşleri yapıp \textbf{fotoğraf} çekiyorum. \textbf{Futbol}, \textbf{masa tenisi}, \textbf{bisiklet} ve \textbf{yüzme} sporlarıyla ilgileniyorum. Tarih (Osmanlı-Roma), \textbf{dini kaynaklar} ve kişisel gelişim üzerine \textbf{kitap} okumayı seviyorum.
+         }
+\end{document}
