@@ -1,24 +1,20 @@
-\documentclass[letterpaper,11pt]{article}
+\documentclass[a4paper,11pt]{article}
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[english]{babel}
 
-\usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
-\usepackage{marvosym}
-\usepackage[usenames,dvipsnames]{color}
-\usepackage{verbatim}
+\usepackage[dvipsnames]{xcolor}
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr}
-\usepackage{tabularx}
 \usepackage[sfdefault]{FiraSans}
 \input{glyphtounicode}
 
 \pagestyle{fancy}
-\fancyhf{} 
+\fancyhf{}
 \fancyfoot{}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
@@ -65,174 +61,195 @@
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{3pt}}
 
 \begin{document}
 
 \begin{center}
     \textbf{\Huge \scshape Ömer Gülçiçek} \\ \vspace{1pt}
     {\Large \scshape Senior Frontend Engineer} \\ \vspace{2pt}
-    \small +90 554 350 98 06 $|$ \href{mailto:iletisim@omergulcicek.com}{\underline{iletisim@omergulcicek.com}} $|$ \href{https://omergulcicek.com/}{\underline{omergulcicek.com}} \\
+    \small +90 554 350 98 06 $|$ \href{mailto:iletisim@omergulcicek.com}{\underline{iletisim@omergulcicek.com}} $|$ \href{https://omergulcicek.com/}{\underline{omergulcicek.com}} $|$ \href{https://virastack.com/}{\underline{virastack.com}} \\
     \small \href{https://linkedin.com/in/omergulcicek}{\underline{linkedin.com/in/omergulcicek}} $|$ \href{https://github.com/omergulcicek}{\underline{github.com/omergulcicek}} \\
-    \small Istanbul-Sakarya $|$ Military Service: Completed
+    \small Istanbul, Türkiye $|$ Military Service: Completed
 \end{center}
 
 \section{Summary}
-\small{
-Senior Frontend Engineer with over 8 years of experience in the React and Next.js ecosystem, dedicated to building sustainable products for both users and developers. Specialized in developing AI-native rule sets to enhance DX standards and engineering productivity. Focused on optimizing performance in large-scale frontend projects, providing technical leadership, and developing software tools that drive operational efficiency.
+{\small
+Senior Frontend Engineer with team leadership experience, working in the React ecosystem since 2017. I enjoy building frontend architectures from scratch and helping teams move fast and consistently with shared standards. I care about architecture, performance and developer experience, and I use AI deliberately and in a controlled way within that discipline. Founder of ViraStack, an open-source frontend ecosystem.\par
 }
 
-\section{Technical Expertise}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Frontend Development}{: React, Next.js, TypeScript, JavaScript (ES6+), TanStack (Start, Query, Router)} \\
-     \textbf{State \& Form Management}{: Zustand, Zod, React Hook Form} \\
-     \textbf{Styling \& UI}{: Tailwind CSS, shadcn/ui, Framer Motion, Storybook, CSS3/SASS, HTML5} \\
-     \textbf{Tools \& Data}{: Git, Cursor (AI-Native Development), Figma, GraphQL} \\
-     \textbf{Languages}{: Turkish (Native), English (Technical reading and writing)}
-    }}
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}, itemsep=0pt]
+    \small
+     \item \textbf{Languages \& Frameworks}: TypeScript, JavaScript (ES6+), React, Next.js, TanStack Start, TanStack Router
+     \item \textbf{Data \& State}: TanStack Query, Zustand, nuqs, REST API, GraphQL
+     \item \textbf{Forms \& Validation}: React Hook Form, Zod
+     \item \textbf{Styling \& UI}: Tailwind CSS, shadcn/ui, Motion, Storybook, SASS
+     \item \textbf{Testing \& Quality}: Vitest, Playwright, ESLint, Prettier, Lighthouse, Core Web Vitals, accessibility (ARIA)
+     \item \textbf{Backend}: Node.js, Supabase, PostgreSQL
+     \item \textbf{CI/CD \& Deploy}: GitHub Actions, Vercel
+     \item \textbf{Tools}: Claude Code, Cursor, Git, Figma
+     \item \textbf{Leadership \& Process}: Technical leadership, code review, mentoring, coding standards, Scrum, Kanban
  \end{itemize}
 
 \section{Experience}
   \resumeSubHeadingListStart
 
     \resumeSubheading
+      {Founder}{2025 -- Present}
+      {ViraStack}{Remote}
+      \resumeItemListStart
+        \resumeItem{Founded ViraStack, an open-source ecosystem that brings long-term quality and architectural order to frontend projects.}
+        \resumeItem{The ecosystem includes a free learning platform, a one-command starter for production-ready projects, an architecture kit for AI agents and accessible React form packages.}
+        \resumeItem{Own the full lifecycle end to end: product decisions, development, documentation and npm releases.}
+      \resumeItemListEnd
+
+    \resumeSubheading
       {Frontend Team Lead}{Aug 2025 -- Nov 2025}
       {Machinarium}{Remote}
       \resumeItemListStart
-        \resumeItem{Boosted developer productivity and code consistency by establishing AI-driven rules and standardized coding practices.}
-        \resumeItem{Provided technical guidance to a frontend team of 10, ensuring high engineering standards for complex product launches.}
-        \resumeItem{Resolved technical inconsistencies across the e-commerce ecosystem (PIM, CMS, OMS) by architecting shared components and modular structures.}
+        \resumeItem{Led a 10-person frontend team, owning the technical direction of 5+ projects, including 2 e-commerce sites and PIM, CMS and OMS panels.}
+        \resumeItem{Identified shared structures being rebuilt separately across projects; paid down technical debt with a shared component and module architecture, cutting feature and bug-fix turnaround by 2--3x.}
+        \resumeItem{Established AI rules and coding standards, bringing code consistency across the team.}
+        \resumeItem{Set up an AI-assisted Figma-to-code workflow that sped up turning designs into code.}
+        \resumeItem{With no dedicated design team, reported UI/UX issues to management, proposed improvements and led their implementation.}
+        \resumeItem{Strengthened team communication and reduced pressure through regular one-on-ones and team activities.}
       \resumeItemListEnd
 
     \resumeSubheading
-      {Senior Frontend Developer}{Mar 2024 -- Jun 2025}
+      {Frontend Team Lead}{Mar 2024 -- Jun 2025}
       {Alışgidiş}{Remote}
       \resumeItemListStart
-        \resumeItem{Architected the scalable foundation of alisgidis.com and elevated team engineering standards through technical sessions and mentorship.}
-        \resumeItem{Improved site speed and SEO efficiency by achieving Lighthouse scores of 90+ through Core Web Vitals optimizations.}
-        \resumeItem{Increased frontend development speed by 25\% by designing a modular UI library with Atomic Design principles and dark/light mode support.}
+        \resumeItem{Built the frontend team and architecture of alisgidis.com, Fibabanka's e-commerce venture, from scratch; led the 5-person frontend team and owned the tech stack, architecture decisions and work planning.}
+        \resumeItem{Coordinated frontend work with design and backend teams within a 20-person engineering organization.}
+        \resumeItem{Raised Lighthouse scores to 90+ through Core Web Vitals improvements and code optimization, improving site speed and SEO.}
+        \resumeItem{Built a modular UI library with dark/light theme support using Atomic Design, increasing frontend development speed by 25\%.}
+        \resumeItem{Introduced unit testing with Vitest and end-to-end testing with Playwright into the development process.}
+        \resumeItem{Mentored several developers and raised the team's engineering standards through regular technical sessions.}
       \resumeItemListEnd
 
     \resumeSubheading
-      {Senior Frontend Developer}{Jan 2022 -- Feb 2024}
+      {Senior Frontend Engineer}{Jan 2022 -- Feb 2024}
       {Gordion}{Remote}
       \resumeItemListStart
-        \resumeItem{Minimized technical debt by integrating modern engineering practices and high-quality code standards into the team culture.}
-        \resumeItem{Ensured technical consistency and accelerated development cycles by building a corporate UI Kit and design systems.}
-        \resumeItem{Developed scalable frontend architectures for comprehensive booking platforms and optimized data management via GraphQL integration.}
+        \resumeItem{Built scalable frontend architectures for hotel, flight and cultural tour booking platforms; simplified data flow through GraphQL integration.}
+        \resumeItem{Developed a corporate UI kit and design system, bringing consistency across teams and speeding up development.}
+        \resumeItem{Took on technical leadership of a 6-person frontend team without a formal title; mentored several developers.}
+        \resumeItem{Embedded code quality standards and Vitest and Playwright testing into the team culture, reducing technical debt.}
       \resumeItemListEnd
 
     \resumeSubheading
       {Frontend Developer}{Sep 2020 -- Jan 2022}
-      {HangiKredi}{On-site}
+      {HangiKredi}{Istanbul (Hybrid)}
       \resumeItemListStart
-        \resumeItem{Managed performance improvements and end-to-end development of the hangikredi.com platform; strengthened team standards with high-performance interfaces.}
-        \resumeItem{Accelerated product development by translating complex Figma designs into code with high precision and pixel-perfect accuracy.}
+        \resumeItem{Developed every page of hangikredi.com and raised Lighthouse scores to top levels through performance improvements on each page.}
+        \resumeItem{Wrote reusable JavaScript libraries to reduce code duplication; translated Figma designs into pixel-perfect code.}
       \resumeItemListEnd
-      
-    \vspace{20pt}
 
     \resumeSubheading
       {Frontend Instructor}{Dec 2020 -- Feb 2021}
       {Kodluyoruz}{Remote}
       \resumeItemListStart
-        \resumeItem{Delivered comprehensive Frontend 101 training to 30 students, covering HTML, CSS, SASS, JavaScript, Git, and React.}
-        \resumeItem{Enhanced students' modern interface development skills through PSD-to-CSS practices and technical mentorship.}
+        \resumeItem{Taught HTML, CSS, SASS, JavaScript, Git and React to 30 students through hands-on projects and mentoring.}
       \resumeItemListEnd
 
     \resumeSubheading
       {Frontend Developer}{Jun 2019 -- Nov 2019}
-      {Akinon}{On-site}
+      {Akinon}{Istanbul (On-site)}
       \resumeItemListStart
-        \resumeItem{Designed modular component architectures for large-scale e-commerce brands such as Vakko and A101; implemented Zeplin designs with high fidelity.}
-        \resumeItem{Facilitated knowledge transfer and sustainable development by producing detailed technical documentation.}
+        \resumeItem{Built storefronts for brands such as Vakko, A101, Kemal Tanca and Faraway on Akinon's e-commerce platform.}
+        \resumeItem{Turned Zeplin designs into modular components on top of an existing backend; kept the process sustainable with component documentation.}
       \resumeItemListEnd
 
     \resumeSubheading
       {Frontend Developer}{Jul 2018 -- Nov 2018}
-      {Turkcell}{On-site}
+      {Turkcell}{Istanbul (On-site)}
       \resumeItemListStart
-        \resumeItem{Resolved critical frontend bottlenecks in real-time, eliminating development cycle blockers.}
-        \resumeItem{Optimized live system bugs instantly, increasing system stability and feedback speed between teams.}
+        \resumeItem{Prioritized and fixed UI bugs coming from multiple projects in a Kanban team.}
+        \resumeItem{Responded quickly to critical production issues, keeping the team's development flow uninterrupted.}
       \resumeItemListEnd
 
     \resumeSubheading
       {Frontend Developer}{Jul 2017 -- Jun 2018}
-      {Ziraat Teknoloji}{On-site}
+      {Ziraat Teknoloji}{Istanbul (On-site)}
       \resumeItemListStart
-        \resumeItem{Implemented a comprehensive management panel for construction project budgeting and scheduling in accordance with technical standards.}
-        \resumeItem{Led end-to-end development of Kendo UI-based corporate admin panels and modernized user experience through responsive design.}
+        \resumeItem{Developed an admin panel for tracking budgets and timelines of construction projects with Kendo UI, jQuery and Bootstrap; made the interface responsive.}
+        \resumeItem{Improved the UI and usability of internal company websites.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
 
+\newpage
+\section{Projects}
+  {\small \textbf{ViraStack} $|$ \href{https://virastack.com}{\underline{virastack.com}} $|$ \href{https://github.com/virastack}{\underline{github.com/virastack}} \\
+  An open-source ecosystem that brings long-term quality and architectural order to frontend projects.\par}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{ViraStack Academy} $|$ \href{https://virastack.com/academy}{\underline{virastack.com/academy}}}{2026}
+          \resumeItemListStart
+            \resumeItem{An up-to-date roadmap for becoming a frontend developer with React. Free guides from the fundamentals to advanced topics such as AI, architecture and testing. \\ 125+ lessons in Turkish and English, 1,500+ curated sources.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{ViraStack Start} $|$ \href{https://virastack.com/start}{\underline{virastack.com/start}}}{2026}
+          \resumeItemListStart
+            \resumeItem{Production-ready Next.js and TanStack Start projects in a single command. Ships with Feature-Sliced architecture, type safety and AI rules.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{ViraStack AI} $|$ \href{https://virastack.com/ai}{\underline{virastack.com/ai}}}{2026}
+          \resumeItemListStart
+            \resumeItem{An AI-native architecture kit that helps Claude Code, Cursor and other agents write consistent code in a project. Works with AGENTS.md and framework-specific Cursor rules.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{ViraStack Mask} $|$ \href{https://virastack.com/mask}{\underline{virastack.com/mask}}}{2025}
+          \resumeItemListStart
+            \resumeItem{Accessible input masks for forms. Ready-made presets for common formats such as phone numbers, credit cards, dates and currencies.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{ViraStack Password} $|$ \href{https://virastack.com/password}{\underline{virastack.com/password}}}{2025}
+          \resumeItemListStart
+            \resumeItem{An accessible password visibility toggle for React. Lets users show and hide their password safely and includes a password strength meter.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+  \vspace{4pt}
+  {\small \textbf{Personal Projects}\par}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Takvim} $|$ \href{https://takvim.omergulcicek.com}{\underline{takvim.omergulcicek.com}}}{2025}
+          \resumeItemListStart
+            \resumeItem{Free calendar subscriptions: add to your calendar in one click, content stays in sync. \\ Categories: Religious Days, Islamic History, Notable Figures, Football, National and Cultural Days, Turkish Literature, Historical Events.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Fetih} $|$ \href{https://fetih.vercel.app}{\underline{fetih.vercel.app}}}{2025}
+          \resumeItemListStart
+            \resumeItem{A browser-based strategy game about the conquest of Istanbul: train soldiers, upgrade buildings, fight and conquer. \\ Full stack: Node.js, Supabase, PostgreSQL.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Footy} $|$ \href{https://footy.omergulcicek.com}{\underline{footy.omergulcicek.com}}}{2025}
+          \resumeItemListStart
+            \resumeItem{A football games platform: score predictions, virtual-currency betting slips, a squad puzzle and ``Guess the Player''. Weekly leaderboards and a reward system. \\ Full stack: Node.js, Supabase, PostgreSQL.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Software Engineering (English)}{2012 -- 2017}
-      {Istanbul Aydın University}{Istanbul, Turkey}
+      {B.Sc. in Software Engineering (English-taught)}{2012 -- 2017}
+      {Istanbul Aydın University}{Istanbul}
+      \resumeItemListStart
+        \resumeItem{Graduation project: a web-based strategy (war) game.}
+      \resumeItemListEnd
   \resumeSubHeadingListEnd
 
-\section{Projects and Open Source}
-    \resumeSubHeadingListStart
-      \resumeProjectHeading
-          {\textbf{ViraStack Start (CLI)} $|$ \href{https://github.com/virastack/start}{\underline{github.com/virastack/start}}}{2026}
-          \resumeItemListStart
-            \resumeItem{Production-grade scaffolding CLI for modern React — integrate ecosystem tools in one command.}
-          \resumeItemListEnd
-          
-      \resumeProjectHeading
-          {\textbf{ViraStack AI} $|$ \href{https://github.com/virastack/ai}{\underline{github.com/virastack/ai}}}{2026}
-          \resumeItemListStart
-            \resumeItem{AI-native architecture kit for modern React — disciplined agent rules in one command.}
-          \resumeItemListEnd
-
-      \resumeProjectHeading
-          {\textbf{ViraStack Mask} $|$ \href{https://github.com/virastack/mask}{\underline{github.com/virastack/mask}}}{2025}
-          \resumeItemListStart
-            \resumeItem{The lightweight standard for input formatting and state synchronization in React.}
-          \resumeItemListEnd
-
-      \resumeProjectHeading
-          {\textbf{ViraStack Password} $|$ \href{https://github.com/virastack/password}{\underline{github.com/virastack/password}}}{2025}
-          \resumeItemListStart
-            \resumeItem{Fully accessible and customizable password visibility hook for React.}
-          \resumeItemListEnd
-          
-      \resumeProjectHeading
-          {\textbf{ViraStack Guide} $|$ \href{https://github.com/virastack/guide}{\underline{github.com/virastack/guide}}}{2024}
-          \resumeItemListStart
-            \resumeItem{An interactive, step-by-step journey demonstrating how modern web applications are built.}
-          \resumeItemListEnd
-          
-      \resumeProjectHeading
-          {\textbf{Footy} $|$ \href{https://footy.omergulcicek.com/}{\underline{footy.omergulcicek.com/}}}{2025}
-          \resumeItemListStart
-            \resumeItem{Test your football knowledge: Guess Who, Score Hunter, Coupon Master, and Squad Puzzle.}
-          \resumeItemListEnd
-
-      \resumeProjectHeading
-          {\textbf{Takvim} $|$ \href{https://takvim.omergulcicek.com/}{\underline{takvim.omergulcicek.com/}}}{2025}
-          \resumeItemListStart
-            \resumeItem{Free, open-source calendar interfaces and content platform for calendar subscriptions.}
-          \resumeItemListEnd
-
-      \resumeProjectHeading
-          {\textbf{Türkçe Doküman} $|$ \href{https://github.com/omergulcicek/turkcedokuman.com}{\underline{github.com/omergulcicek/turkcedokuman.com}}}{2023}
-          \resumeItemListStart
-            \resumeItem{Open-source project providing high-quality Turkish resources and content for software development.}
-          \resumeItemListEnd
-
-      \resumeProjectHeading
-        {\textbf{Turkuaz} $|$ \href{https://github.com/omergulcicek/turkuaz}{\underline{github.com/omergulcicek/turkuaz}}}{2021}
-        \resumeItemListStart
-          \resumeItem{CSS-focused library and methodology for rapid development of minimalist web pages.}
-        \resumeItemListEnd
-    \resumeSubHeadingListEnd
-    
-    \section{Interests}
-         \small{
-          Beyond the technical world; I write \textbf{articles} on my personal blog covering technical topics and personal experiences. I am an active \textbf{chess} player, and I enjoy hiking and \textbf{photography}. I stay active through \textbf{football}, \textbf{table tennis}, \textbf{cycling}, and \textbf{swimming}. I enjoy reading \textbf{books} on History (Ottoman-Roman), \textbf{religious sources}, and personal development.
-         }
+\section{Languages and Interests}
+  {\small
+    \textbf{Languages}: Turkish (Native), English (Technical reading) \\
+    \textbf{Interests}: \href{https://omergulcicek.com/blog}{\underline{Blog}} (100+ posts), chess, history books, photography, ney (reed flute), painting, football, table tennis\par
+  }
 \end{document}
